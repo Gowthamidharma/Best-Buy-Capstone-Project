@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 14 16:48:08 GST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>427 seconds (427098 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_A_SearchBoxValidation()'><b>tc_012_A_SearchBoxValidation</b><br>Test class: ecommercetest.TC_012AdditionalTask1<br>Parameters: "98465", Results for 98465</td>
+<td></td>
+<td>17</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+<tr>
+<td title='ecommercetest.TC_013AddtionalTask2.tc_013_B_AddItemByDeptMenuWithOffer()'><b>tc_013_B_AddItemByDeptMenuWithOffer</b><br>Test class: ecommercetest.TC_013AddtionalTask2</td>
+<td></td>
+<td>60</td>
+<td>ecommercetest.TC_013AddtionalTask2@70cf32e3</td></tr>
+<tr>
+<td title='ecommercetest.TC_008AddItemByDept.tc_008AddItemByDeptMenu()'><b>tc_008AddItemByDeptMenu</b><br>Test class: ecommercetest.TC_008AddItemByDept</td>
+<td></td>
+<td>57</td>
+<td>ecommercetest.TC_008AddItemByDept@28dcca0c</td></tr>
+<tr>
+<td title='ecommercetest.TC_013AddtionalTask2.tc_013_A_ForgotpasswordFunctionality()'><b>tc_013_A_ForgotpasswordFunctionality</b><br>Test class: ecommercetest.TC_013AddtionalTask2<br>Parameters: gowthamidharma@gmail.com, (//h1[normalize-space()="Great. You've got a couple options."])[1], Great. You've got a couple options.</td>
+<td></td>
+<td>21</td>
+<td>ecommercetest.TC_013AddtionalTask2@70cf32e3</td></tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_A_SearchBoxValidation()'><b>tc_012_A_SearchBoxValidation</b><br>Test class: ecommercetest.TC_012AdditionalTask1<br>Parameters: *#@%, Results for *#@%</td>
+<td></td>
+<td>17</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+<tr>
+<td title='ecommercetest.TC_013AddtionalTask2.tc_013_A_ForgotpasswordFunctionality()'><b>tc_013_A_ForgotpasswordFunctionality</b><br>Test class: ecommercetest.TC_013AddtionalTask2<br>Parameters: , //p[text()='Please enter a valid email address.'], Please enter a valid email address.</td>
+<td></td>
+<td>20</td>
+<td>ecommercetest.TC_013AddtionalTask2@70cf32e3</td></tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_A_SearchBoxValidation()'><b>tc_012_A_SearchBoxValidation</b><br>Test class: ecommercetest.TC_012AdditionalTask1<br>Parameters: kettle, Results for "kettle" in Coffee, Tea & Espresso.Search all categories instead.</td>
+<td></td>
+<td>19</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+<tr>
+<td title='ecommercetest.TC_009AddItemByBrand.tc_009AddItemShopByBrandMenu()'><b>tc_009AddItemShopByBrandMenu</b><br>Test class: ecommercetest.TC_009AddItemByBrand</td>
+<td></td>
+<td>54</td>
+<td>ecommercetest.TC_009AddItemByBrand@72bc6553</td></tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_A_SearchBoxValidation()'><b>tc_012_A_SearchBoxValidation</b><br>Test class: ecommercetest.TC_012AdditionalTask1<br>Parameters: %^*, Try a different search term or check out some of our suggestions below.</td>
+<td></td>
+<td>18</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_B_validateBusinessAccount()'><b>tc_012_B_validateBusinessAccount</b><br>Test class: ecommercetest.TC_012AdditionalTask1</td>
+<td></td>
+<td>30</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+<tr>
+<td title='ecommercetest.TC_012AdditionalTask1.tc_012_C_ValiadateBrokenLinksInSignInPage()'><b>tc_012_C_ValiadateBrokenLinksInSignInPage</b><br>Test class: ecommercetest.TC_012AdditionalTask1</td>
+<td></td>
+<td>49</td>
+<td>ecommercetest.TC_012AdditionalTask1@5a59ca5e</td></tr>
+</table><p>
+</body>
+</html>

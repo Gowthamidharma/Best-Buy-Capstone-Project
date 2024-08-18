@@ -3,6 +3,7 @@ package ecommerceprojetbase;
 
 import org.testng.annotations.AfterMethod;
 
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -10,7 +11,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import ecommerceutils.Utilsecommerce;
 
@@ -19,8 +19,6 @@ import ecommerceutils.Utilsecommerce;
 public class PSMethodecommerce extends Utilsecommerce  {
 	
 	  public static ExtentHtmlReporter reporter; 
-	  //public static ExtentReports  extent;
-	  //public static ExtentTest test;
 	
 	  
 	  // extent report in before suite

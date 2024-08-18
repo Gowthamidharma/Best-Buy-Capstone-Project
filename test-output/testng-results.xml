@@ -1,65 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-17T23:04:12 GST" name="Suite2" finished-at="2024-08-17T23:06:03 GST" duration-ms="110603">
+  <suite started-at="2024-08-18T10:37:17 GST" name="Suite3" finished-at="2024-08-18T10:39:10 GST" duration-ms="112933">
     <groups>
     </groups>
-    <test started-at="2024-08-17T23:04:12 GST" name="Test2" finished-at="2024-08-17T23:06:03 GST" duration-ms="110603">
-      <class name="ecommercetest.TC_010CheckoutPage">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:04:12 GST" name="startReport" finished-at="2024-08-17T23:04:12 GST" duration-ms="238" status="PASS">
+    <test started-at="2024-08-18T10:37:17 GST" name="Test3" finished-at="2024-08-18T10:39:10 GST" duration-ms="112933">
+      <class name="ecommercetest.TC_013AddtionalTask2">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:37:16 GST" name="startReport" finished-at="2024-08-18T10:37:17 GST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:04:12 GST" name="setup" finished-at="2024-08-17T23:04:12 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:37:17 GST" name="setup" finished-at="2024-08-18T10:37:17 GST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:04:12 GST" name="testDetails" finished-at="2024-08-17T23:04:12 GST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:37:17 GST" name="testDetails" finished-at="2024-08-18T10:37:17 GST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:04:15 GST" name="start" finished-at="2024-08-17T23:04:23 GST" duration-ms="8764" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:37:17 GST" name="start" finished-at="2024-08-18T10:37:23 GST" duration-ms="5551" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_010CheckOutPageFilling(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:04:23 GST" name="tc_010CheckOutPageFilling" data-provider="getdata" finished-at="2024-08-17T23:05:56 GST" duration-ms="92545" status="PASS">
+        <test-method signature="tc_013_B_AddItemByDeptMenuWithOffer()[pri:5, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:37:23 GST" name="tc_013_B_AddItemByDeptMenuWithOffer" finished-at="2024-08-18T10:38:20 GST" duration-ms="57064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_013_B_AddItemByDeptMenuWithOffer -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:20 GST" name="close" finished-at="2024-08-18T10:38:22 GST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:24 GST" name="start" finished-at="2024-08-18T10:38:28 GST" duration-ms="3574" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Best_Buy24@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9837426748]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Request failed because of network connection]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_010CheckOutPageFilling -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:05:56 GST" name="close" finished-at="2024-08-17T23:06:03 GST" duration-ms="6563" status="PASS">
+        </test-method> <!-- start -->
+        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:28 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T10:38:48 GST" duration-ms="20093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//p[text()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_013_A_ForgotpasswordFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:48 GST" name="close" finished-at="2024-08-18T10:38:49 GST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_010CheckoutPage@304bb45b]" started-at="2024-08-17T23:06:04 GST" name="endReport" finished-at="2024-08-17T23:06:04 GST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:49 GST" name="start" finished-at="2024-08-18T10:38:51 GST" duration-ms="2526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:38:51 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T10:39:09 GST" duration-ms="17778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gowthamidharma@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(//h1[normalize-space()="Great. You've got a couple options."])[1]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Great. You've got a couple options.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_013_A_ForgotpasswordFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:39:09 GST" name="close" finished-at="2024-08-18T10:39:10 GST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@723ca036]" started-at="2024-08-18T10:39:11 GST" name="endReport" finished-at="2024-08-18T10:39:11 GST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- ecommercetest.TC_010CheckoutPage -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite2 -->
+      </class> <!-- ecommercetest.TC_013AddtionalTask2 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite3 -->
 </testng-results>

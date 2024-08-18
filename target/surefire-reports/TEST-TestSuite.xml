@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="764.903" tests="30" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1254.805" tests="46" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Lishanth\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\Lishanth\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lishanth\AppData\Local\Temp\surefire3511722035851643460\surefirebooter-20240818083751570_3.jar C:\Users\Lishanth\AppData\Local\Temp\surefire3511722035851643460 2024-08-18T08-37-51_314-jvmRun1 surefire-20240818083751570_1tmp surefire_0-20240818083751570_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lishanth\AppData\Local\Temp\surefire4438746361127055356\surefirebooter-20240818132331965_3.jar C:\Users\Lishanth\AppData\Local\Temp\surefire4438746361127055356 2024-08-18T13-23-31_643-jvmRun1 surefire-20240818132331965_1tmp surefire_0-20240818132331965_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Lishanth\eclipse-workspace\ecommerceprojet\target\test-classes;C:\Users\Lishanth\eclipse-workspace\ecommerceprojet\target\classes;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Lishanth\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Lishanth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Lishanth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lishanth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lishanth\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Lishanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Lishanth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Lishanth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Lishanth\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Lishanth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Lishanth\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Lishanth\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Lishanth\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Lishanth\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Lishanth\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Lishanth\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Lishanth\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Lishanth\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Lishanth\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Lishanth\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Lishanth\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Lishanth\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Lishanth\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Lishanth\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Lishanth\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Lishanth\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Lishanth\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Lishanth\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Lishanth\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Lishanth\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Lishanth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Lishanth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Lishanth\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Lishanth\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Lishanth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lishanth\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Lishanth\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Lishanth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lishanth\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lishanth\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lishanth\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lishanth\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lishanth\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-alpha1\log4j-core-3.0.0-alpha1.jar;C:\Users\Lishanth\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-alpha1\log4j-plugins-3.0.0-alpha1.jar;C:\Users\Lishanth\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Lishanth\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Lishanth\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar;C:\Users\Lishanth\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar;C:\Users\Lishanth\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-alpha1\log4j-api-3.0.0-alpha1.jar;C:\Users\Lishanth\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Lishanth\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Lishanth\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Lishanth\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Lishanth\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Lishanth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lishanth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Lishanth\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,10 +32,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lishanth\AppData\Local\Temp\surefire3511722035851643460\surefirebooter-20240818083751570_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lishanth\AppData\Local\Temp\surefire4438746361127055356\surefirebooter-20240818132331965_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+9"/>
+    <property name="webdriver.edge.driver" value="C:\Users\Lishanth\.cache\selenium\msedgedriver\win64\127.0.2651.105\msedgedriver.exe"/>
     <property name="user.name" value="Lishanth"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -59,168 +60,383 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="tc_004_validateCreatAccount[user1980, user1980, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Too many numeric characters.&apos;], Too many numeric characters.](1)" classname="ecommercetest.TC_004CreateAccount" time="23.378">
+  <testcase name="tc_010CheckOutPageFilling[Best_Buy24@gmail.com, 9837426748, Request failed because of network connection](1)" classname="ecommercetest.TC_010CheckoutPage" time="50.659">
+    <failure message="element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1119, 401). Other element would receive the click: &lt;div class=&quot;page-spinner page-spinner--out&quot;&gt;...&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=127.0.2651.105)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -&gt; xpath: //button[text()=&apos;Checkout&apos;]]&#10;Session ID: f2caf57cd48825eed907a949b5ce681e" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1119, 401). Other element would receive the click: <div class="page-spinner page-spinner--out">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -> xpath: //button[text()='Checkout']]
+Session ID: f2caf57cd48825eed907a949b5ce681e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+	at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+	at ecommercepages.CheckCartPage.goToCheckOutPage(CheckCartPage.java:109)
+	at ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling(TC_010CheckoutPage.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[BestBuy Automation has started Successfully
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 18, 2024 8:38:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2024 1:23:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[use0, use0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //strong[text()=&apos;An account with this email already exists.&apos;], An account with this email already exists.](2)" classname="ecommercetest.TC_004CreateAccount" time="22.056">
-    <system-err><![CDATA[Aug 18, 2024 8:38:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_007SearchAddItemInCart" classname="ecommercetest.TC_007SearchAddItemInCart" time="51.363">
+    <system-err><![CDATA[Aug 18, 2024 1:24:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter your first name.&apos;], Please enter your first name.](3)" classname="ecommercetest.TC_004CreateAccount" time="18.619">
-    <system-err><![CDATA[Aug 18, 2024 8:38:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[K-12 Tech, Parent Hub - Best Buy](1)" classname="ecommercetest.TC_005ValidateMenu" time="19.941">
+    <system-err><![CDATA[Aug 18, 2024 1:25:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, , Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter your last name.&apos;], Please enter your last name.](4)" classname="ecommercetest.TC_004CreateAccount" time="17.972">
-    <system-err><![CDATA[Aug 18, 2024 8:39:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Top Deals, Top Deals and Featured Offers on Electronics - Best Buy](2)" classname="ecommercetest.TC_005ValidateMenu" time="18.066">
+    <system-err><![CDATA[Aug 18, 2024 1:26:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](5)" classname="ecommercetest.TC_004CreateAccount" time="20.053">
-    <system-err><![CDATA[Aug 18, 2024 8:39:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Deal of the Day, Deal of the Day: Electronics Deals - Best Buy](3)" classname="ecommercetest.TC_005ValidateMenu" time="18.849">
+    <system-err><![CDATA[Aug 18, 2024 1:26:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, , EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](6)" classname="ecommercetest.TC_004CreateAccount" time="22.399">
-    <system-err><![CDATA[Aug 18, 2024 8:40:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Clearance Deals, Clearance Electronics Outlet - Best Buy](4)" classname="ecommercetest.TC_005ValidateMenu" time="19.044">
+    <system-err><![CDATA[Aug 18, 2024 1:26:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a strong password.&apos;], Please enter a strong password.](7)" classname="ecommercetest.TC_004CreateAccount" time="19.846">
-    <system-err><![CDATA[Aug 18, 2024 8:40:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Credit Cards, Best Buy Credit Card: Rewards &amp; Financing](5)" classname="ecommercetest.TC_005ValidateMenu" time="16.82">
+    <system-err><![CDATA[Aug 18, 2024 1:27:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_, 9837462738, //p[text()=&apos;Passwords do not match.&apos;], Passwords do not match.](8)" classname="ecommercetest.TC_004CreateAccount" time="17.819">
-    <system-err><![CDATA[Aug 18, 2024 8:40:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[My Best Buy Memberships, My Best Buy Memberships](6)" classname="ecommercetest.TC_005ValidateMenu" time="16.998">
+    <system-err><![CDATA[Aug 18, 2024 1:27:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, , EcomBest_Buy24, 9837462738, //p[text()=&apos;Passwords do not match.&apos;], Passwords do not match.](9)" classname="ecommercetest.TC_004CreateAccount" time="17.304">
-    <system-err><![CDATA[Aug 18, 2024 8:41:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Gift Ideas, Gift Ideas 2024: Best Gifts to Give This Year](7)" classname="ecommercetest.TC_005ValidateMenu" time="22.544">
+    <system-err><![CDATA[Aug 18, 2024 1:28:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, , , 9837462738, //p[text()=&apos;Please reenter your password.&apos;], Please reenter your password.](10)" classname="ecommercetest.TC_004CreateAccount" time="17.274">
-    <system-err><![CDATA[Aug 18, 2024 8:41:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Home Gym, Home Gym Equipment &amp; Machines - Best Buy](8)" classname="ecommercetest.TC_005ValidateMenu" time="18.167">
+    <system-err><![CDATA[Aug 18, 2024 1:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //span[text()=&apos;Your passwords match!&apos;], Your passwords match!](11)" classname="ecommercetest.TC_004CreateAccount" time="27.999">
-    <system-err><![CDATA[Aug 18, 2024 8:41:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet](9)" classname="ecommercetest.TC_005ValidateMenu" time="18.264">
+    <system-err><![CDATA[Aug 18, 2024 1:28:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 98374627, //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](12)" classname="ecommercetest.TC_004CreateAccount" time="17.663">
-    <system-err><![CDATA[Aug 18, 2024 8:42:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_005validateMenu[Best Buy Business, Best Buy for Business - Best Buy](10)" classname="ecommercetest.TC_005ValidateMenu" time="14.813">
+    <system-err><![CDATA[Aug 18, 2024 1:29:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462iut, //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](13)" classname="ecommercetest.TC_004CreateAccount" time="16.541">
-    <system-err><![CDATA[Aug 18, 2024 8:42:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_003SignIn[Best_Buygmail.com, EcomBest_Buy24, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](1)" classname="ecommercetest.TC_003SignIn" time="21.201">
+    <system-err><![CDATA[Aug 18, 2024 1:29:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, , //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](14)" classname="ecommercetest.TC_004CreateAccount" time="16.108">
-    <system-err><![CDATA[Aug 18, 2024 8:43:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_003SignIn[, EcomBest_Buy24, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](2)" classname="ecommercetest.TC_003SignIn" time="17.153">
+    <system-err><![CDATA[Aug 18, 2024 1:30:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_002validatebrokenurl" classname="ecommercetest.TC_002ValidateBrokenURL" time="18.591">
-    <system-err><![CDATA[Aug 18, 2024 8:43:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_003SignIn[Best_Buy@gmail.com, , //p[text()=&apos;Please enter your password.&apos;], Please enter your password.](3)" classname="ecommercetest.TC_003SignIn" time="17.073">
+    <system-err><![CDATA[Aug 18, 2024 1:30:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_001navigatToBestBest" classname="ecommercetest.TC_001NavigatetoURL" time="0.692">
-    <system-err><![CDATA[Aug 18, 2024 8:43:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_003SignIn[Best_Buy24@gmail.com, EcomBest_Buy, //div[text()=&apos;Sorry, something went wrong. Please try again.&apos;], Sorry, something went wrong. Please try again.](4)" classname="ecommercetest.TC_003SignIn" time="23.078">
+    <system-err><![CDATA[Aug 18, 2024 1:30:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_006validatebottomlink[Health Data Privacy, Health Data Privacy Information - Best Buy](1)" classname="ecommercetest.TC_006ValidateBottomLinks" time="15.876">
-    <system-err><![CDATA[Aug 18, 2024 8:43:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
-]]></system-err>
-  </testcase>
-  <testcase name="tc_006validatebottomlink[Accessibility, Accessibility - Best Buy](2)" classname="ecommercetest.TC_006ValidateBottomLinks" time="14.022">
-    <system-err><![CDATA[Aug 18, 2024 8:44:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
-]]></system-err>
-  </testcase>
-  <testcase name="tc_006validatebottomlink[Privacy, Privacy Policy Hub - Best Buy](3)" classname="ecommercetest.TC_006ValidateBottomLinks" time="14.12">
-    <system-err><![CDATA[Aug 18, 2024 8:44:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
-]]></system-err>
-  </testcase>
-  <testcase name="tc_013_B_AddItemByDeptMenuWithOffer" classname="ecommercetest.TC_013AddtionalTask2" time="56.722">
+  <testcase name="tc_004_validateCreatAccount[user1980, user1980, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Too many numeric characters.&apos;], Too many numeric characters.](1)" classname="ecommercetest.TC_004CreateAccount" time="21.522">
     <system-out><![CDATA[BestBuy Automation has completed Successfully
 BestBuy Automation has started Successfully
-No Pop-Up Displayed
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2024 1:31:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[use0, use0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //strong[text()=&apos;An account with this email already exists.&apos;], An account with this email already exists.](2)" classname="ecommercetest.TC_004CreateAccount" time="22.23">
+    <system-err><![CDATA[Aug 18, 2024 1:31:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter your first name.&apos;], Please enter your first name.](3)" classname="ecommercetest.TC_004CreateAccount" time="18.188">
+    <system-err><![CDATA[Aug 18, 2024 1:32:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, , Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter your last name.&apos;], Please enter your last name.](4)" classname="ecommercetest.TC_004CreateAccount" time="17.878">
+    <system-err><![CDATA[Aug 18, 2024 1:32:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](5)" classname="ecommercetest.TC_004CreateAccount" time="22.053">
+    <system-err><![CDATA[Aug 18, 2024 1:33:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, , EcomBest_Buy24, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](6)" classname="ecommercetest.TC_004CreateAccount" time="19.358">
+    <system-err><![CDATA[Aug 18, 2024 1:33:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest, EcomBest_Buy24, 9837462738, //p[text()=&apos;Please enter a strong password.&apos;], Please enter a strong password.](7)" classname="ecommercetest.TC_004CreateAccount" time="15.99">
+    <system-err><![CDATA[Aug 18, 2024 1:33:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_, 9837462738, //p[text()=&apos;Passwords do not match.&apos;], Passwords do not match.](8)" classname="ecommercetest.TC_004CreateAccount" time="18.899">
+    <system-err><![CDATA[Aug 18, 2024 1:34:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, , EcomBest_Buy24, 9837462738, //p[text()=&apos;Passwords do not match.&apos;], Passwords do not match.](9)" classname="ecommercetest.TC_004CreateAccount" time="17.413">
+    <system-err><![CDATA[Aug 18, 2024 1:34:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, , , 9837462738, //p[text()=&apos;Please reenter your password.&apos;], Please reenter your password.](10)" classname="ecommercetest.TC_004CreateAccount" time="22.052">
+    <system-err><![CDATA[Aug 18, 2024 1:34:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462738, //span[text()=&apos;Your passwords match!&apos;], Your passwords match!](11)" classname="ecommercetest.TC_004CreateAccount" time="20.563">
+    <system-err><![CDATA[Aug 18, 2024 1:35:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 98374627, //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](12)" classname="ecommercetest.TC_004CreateAccount" time="18.794">
+    <system-err><![CDATA[Aug 18, 2024 1:35:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, 9837462iut, //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](13)" classname="ecommercetest.TC_004CreateAccount" time="17.561">
+    <system-err><![CDATA[Aug 18, 2024 1:36:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_004_validateCreatAccount[user0, user0, Best_Buy19@gmail.com, EcomBest_Buy24, EcomBest_Buy24, , //p[text()=&apos;Please enter a valid mobile phone number.&apos;], Please enter a valid mobile phone number.](14)" classname="ecommercetest.TC_004CreateAccount" time="20.631">
+    <system-err><![CDATA[Aug 18, 2024 1:36:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002validatebrokenurl" classname="ecommercetest.TC_002ValidateBrokenURL" time="21.182">
+    <system-err><![CDATA[Aug 18, 2024 1:36:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_001navigatToBestBest" classname="ecommercetest.TC_001NavigatetoURL" time="0.824">
+    <system-err><![CDATA[Aug 18, 2024 1:37:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_006validatebottomlink[Health Data Privacy, Health Data Privacy Information - Best Buy](1)" classname="ecommercetest.TC_006ValidateBottomLinks" time="15.057">
+    <system-err><![CDATA[Aug 18, 2024 1:37:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_006validatebottomlink[Accessibility, Accessibility - Best Buy](2)" classname="ecommercetest.TC_006ValidateBottomLinks" time="14.49">
+    <system-err><![CDATA[Aug 18, 2024 1:37:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_006validatebottomlink[Privacy, Privacy Policy Hub - Best Buy](3)" classname="ecommercetest.TC_006ValidateBottomLinks" time="16.119">
+    <system-err><![CDATA[Aug 18, 2024 1:38:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_008AddItemByDeptMenu" classname="ecommercetest.TC_008AddItemByDept" time="61.839">
+    <system-out><![CDATA[BestBuy Automation has completed Successfully
+BestBuy Automation has started Successfully
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2024 1:38:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_009AddItemShopByBrandMenu" classname="ecommercetest.TC_009AddItemByBrand" time="12.682">
+    <failure message="element click intercepted: Element &lt;button class=&quot;c-button-unstyled hamburger-menu-button&quot; type=&quot;button&quot; aria-controls=&quot;flyout-container&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Menu&quot;&gt;...&lt;/button&gt; is not clickable at point (198, 77). Other element would receive the click: &lt;div id=&quot;confirmIt-backdrop&quot; class=&quot;confirmIt modal-backdrop in&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=127.0.6533.120)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7a08c3d0955b467f33a7cfb47aa583a9, clickElement {id=f.CDECC0697D2175352C7BCD7023E41602.d.8BF41813A76475DFDD25FF208555D7C9.e.68}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Lishanth\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (7a08c3d0955b467f33a7cfb47aa583a9)] -&gt; xpath: //button[@aria-label=&apos;Menu&apos;]]&#10;Session ID: 7a08c3d0955b467f33a7cfb47aa583a9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="c-button-unstyled hamburger-menu-button" type="button" aria-controls="flyout-container" aria-expanded="false" aria-label="Menu">...</button> is not clickable at point (198, 77). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a08c3d0955b467f33a7cfb47aa583a9, clickElement {id=f.CDECC0697D2175352C7BCD7023E41602.d.8BF41813A76475DFDD25FF208555D7C9.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Lishanth\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7a08c3d0955b467f33a7cfb47aa583a9)] -> xpath: //button[@aria-label='Menu']]
+Session ID: 7a08c3d0955b467f33a7cfb47aa583a9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+	at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+	at ecommercepages.Homepage.selectDellBrandInHomePage(Homepage.java:168)
+	at ecommercetest.TC_009AddItemByBrand.tc_009AddItemShopByBrandMenu(TC_009AddItemByBrand.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Aug 18, 2024 1:39:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="tc_013_B_AddItemByDeptMenuWithOffer" classname="ecommercetest.TC_013AddtionalTask2" time="53.131">
+    <system-out><![CDATA[No Pop-Up Displayed
 No Pop-Up Displayed
 ]]></system-out>
-    <system-err><![CDATA[Aug 18, 2024 8:44:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 18, 2024 1:39:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_013_A_ForgotpasswordFunctionality[, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](1)" classname="ecommercetest.TC_013AddtionalTask2" time="16.61">
-    <system-err><![CDATA[Aug 18, 2024 8:45:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_013_A_ForgotpasswordFunctionality[, //p[text()=&apos;Please enter a valid email address.&apos;], Please enter a valid email address.](1)" classname="ecommercetest.TC_013AddtionalTask2" time="16.862">
+    <system-err><![CDATA[Aug 18, 2024 1:40:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_013_A_ForgotpasswordFunctionality[gowthamidharma@gmail.com, (//h1[normalize-space()=&quot;Great. You&apos;ve got a couple options.&quot;])[1], Great. You&apos;ve got a couple options.](2)" classname="ecommercetest.TC_013AddtionalTask2" time="18.902">
-    <system-err><![CDATA[Aug 18, 2024 8:46:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_013_A_ForgotpasswordFunctionality[gowthamidharma@gmail.com, (//h1[normalize-space()=&quot;Great. You&apos;ve got a couple options.&quot;])[1], Great. You&apos;ve got a couple options.](2)" classname="ecommercetest.TC_013AddtionalTask2" time="16.427">
+    <system-err><![CDATA[Aug 18, 2024 1:41:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_008AddItemByDeptMenu" classname="ecommercetest.TC_008AddItemByDept" time="48.427">
-    <system-err><![CDATA[Aug 18, 2024 8:46:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
-]]></system-err>
-  </testcase>
-  <testcase name="tc_009AddItemShopByBrandMenu" classname="ecommercetest.TC_009AddItemByBrand" time="46.856">
-    <system-err><![CDATA[Aug 18, 2024 8:47:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
-]]></system-err>
-  </testcase>
-  <testcase name="tc_012_C_ValiadateBrokenLinksInSignInPage" classname="ecommercetest.TC_012AdditionalTask1" time="39.774">
+  <testcase name="tc_012_C_ValiadateBrokenLinksInSignInPage" classname="ecommercetest.TC_012AdditionalTask1" time="51.277">
     <system-out><![CDATA[List of links in Current Page Terms and Conditions
 List of links in Current Page Privacy
 List of links in Current Page Interest-Based Ads
 No.of BrokenLinks In the Current Page is 0
 ]]></system-out>
-    <system-err><![CDATA[Aug 18, 2024 8:48:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 18, 2024 1:41:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_012_B_validateBusinessAccount" classname="ecommercetest.TC_012AdditionalTask1" time="19.555">
-    <system-err><![CDATA[Aug 18, 2024 8:48:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_012_A_SearchBoxValidation[kettle, Results for &quot;kettle&quot; in Coffee, Tea &amp; Espresso.Search all categories instead.](1)" classname="ecommercetest.TC_012AdditionalTask1" time="19.446">
+    <system-err><![CDATA[Aug 18, 2024 1:42:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_012_A_SearchBoxValidation[kettle, Results for &quot;kettle&quot; in Coffee, Tea &amp; Espresso.Search all categories instead.](1)" classname="ecommercetest.TC_012AdditionalTask1" time="16.85">
-    <system-err><![CDATA[Aug 18, 2024 8:49:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_012_A_SearchBoxValidation[%^*, Try a different search term or check out some of our suggestions below.](2)" classname="ecommercetest.TC_012AdditionalTask1" time="19.345">
+    <system-err><![CDATA[Aug 18, 2024 1:42:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_012_A_SearchBoxValidation[%^*, Try a different search term or check out some of our suggestions below.](2)" classname="ecommercetest.TC_012AdditionalTask1" time="16.137">
-    <system-err><![CDATA[Aug 18, 2024 8:49:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_012_A_SearchBoxValidation[&quot;98465&quot;, Results for 98465](3)" classname="ecommercetest.TC_012AdditionalTask1" time="16.328">
+    <system-err><![CDATA[Aug 18, 2024 1:43:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_012_A_SearchBoxValidation[&quot;98465&quot;, Results for 98465](3)" classname="ecommercetest.TC_012AdditionalTask1" time="15.654">
-    <system-err><![CDATA[Aug 18, 2024 8:49:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_012_A_SearchBoxValidation[*#@%, Results for *#@%](4)" classname="ecommercetest.TC_012AdditionalTask1" time="16.166">
+    <system-err><![CDATA[Aug 18, 2024 1:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>
-  <testcase name="tc_012_A_SearchBoxValidation[*#@%, Results for *#@%](4)" classname="ecommercetest.TC_012AdditionalTask1" time="18.864">
-    <system-err><![CDATA[Aug 18, 2024 8:50:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="tc_012_B_validateBusinessAccount" classname="ecommercetest.TC_012AdditionalTask1" time="22.949">
+    <system-err><![CDATA[Aug 18, 2024 1:44:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
 ]]></system-err>
   </testcase>

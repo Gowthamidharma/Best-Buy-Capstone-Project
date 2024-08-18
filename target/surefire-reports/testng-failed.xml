@@ -7,17 +7,17 @@
   </listeners>
   <test thread-count="5" name="Test3(failed)" verbose="0">
     <classes>
-      <class name="ecommercetest.TC_013AddtionalTask2">
+      <class name="ecommercetest.TC_009AddItemByBrand">
         <methods>
           <include name="startReport"/>
           <include name="close"/>
           <include name="endReport"/>
           <include name="start"/>
+          <include name="tc_009AddItemShopByBrandMenu"/>
           <include name="setup"/>
-          <include name="tc_013_A_ForgotpasswordFunctionality" invocation-numbers="0"/>
           <include name="testDetails"/>
         </methods>
-      </class> <!-- ecommercetest.TC_013AddtionalTask2 -->
+      </class> <!-- ecommercetest.TC_009AddItemByBrand -->
     </classes>
   </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite3] -->

@@ -21,7 +21,7 @@ public class TC_012AdditionalTask1 extends PSMethodecommerce {
 	}
 	
 	
-	@Test(dataProvider = "getdata",priority = 4)
+	@Test(dataProvider = "getdata",priority = 5)
 	public void tc_012_A_SearchBoxValidation(String Input, String ExpText) throws Exception {
 		FirstSelectcountry url=new 	FirstSelectcountry(driver);
 		url.deliveryAtUSA();
@@ -36,7 +36,7 @@ public class TC_012AdditionalTask1 extends PSMethodecommerce {
 		}
 	}				
 			
-	@Test(priority=3)
+	@Test(priority=6)
 	public void tc_012_B_validateBusinessAccount() throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();

@@ -20,7 +20,7 @@ public class TC_009AddItemByBrand extends PSMethodecommerce {
 	}
 	
 
-	@Test(priority = 2)
+	@Test(priority = 3)
 	public void tc_009AddItemShopByBrandMenu() throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();

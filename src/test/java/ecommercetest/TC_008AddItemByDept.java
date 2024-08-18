@@ -19,7 +19,7 @@ public class TC_008AddItemByDept extends PSMethodecommerce {
 		testAuthor = "Gowthami Dharmalingam";
 	}
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void tc_008AddItemByDeptMenu() throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 18 08:26:18 GST 2024</td>
+<td>Started on:</td><td>Sun Aug 18 13:23:33 GST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>416 seconds (416582 ms)</td>
+<tr><td>Total time:</td><td>473 seconds (473488 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,109 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling()'><b>tc_010CheckOutPageFilling</b><br>Test class: ecommercetest.TC_010CheckoutPage<br>Parameters: Best_Buy24@gmail.com, 9837426748, Request failed because of network connection</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1119, 401). Other element would receive the click: &lt;div class=&quot;page-spinner page-spinner--out&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -&gt; xpath: //button[text()=&apos;Checkout&apos;]]
+Session ID: f2caf57cd48825eed907a949b5ce681e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+	at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+	at ecommercepages.CheckCartPage.goToCheckOutPage(CheckCartPage.java:109)
+	at ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling(TC_010CheckoutPage.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1604271704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1604271704'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1119, 401). Other element would receive the click: &lt;div class=&quot;page-spinner page-spinner--out&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -&gt; xpath: //button[text()=&apos;Checkout&apos;]]
+Session ID: f2caf57cd48825eed907a949b5ce681e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+	at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+	at ecommercepages.CheckCartPage.goToCheckOutPage(CheckCartPage.java:109)
+	at ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling(TC_010CheckoutPage.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>49</td>
+<td>ecommercetest.TC_010CheckoutPage@72cc7e6f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,85 +179,80 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Best Buy Business, Best Buy for Business - Best Buy</td>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet</td>
 <td></td>
-<td>16</td>
-<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: Best_Buygmail.com, EcomBest_Buy24, //p[text()='Please enter a valid email address.'], Please enter a valid email address.</td>
-<td></td>
-<td>15</td>
-<td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
-<tr>
-<td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: Best_Buy24@gmail.com, EcomBest_Buy, //div[text()='Sorry, something went wrong. Please try again.'], Sorry, something went wrong. Please try again.</td>
-<td></td>
-<td>20</td>
-<td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
-<tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: K-12 Tech, Parent Hub - Best Buy</td>
-<td></td>
-<td>13</td>
-<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Deal of the Day, Deal of the Day: Electronics Deals - Best Buy</td>
-<td></td>
-<td>14</td>
-<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Top Deals, Top Deals and Featured Offers on Electronics - Best Buy</td>
-<td></td>
-<td>15</td>
+<td>18</td>
 <td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
 <tr>
 <td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: Best_Buy@gmail.com, , //p[text()='Please enter your password.'], Please enter your password.</td>
 <td></td>
-<td>15</td>
+<td>16</td>
 <td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
+<tr>
+<td title='ecommercetest.TC_007SearchAddItemInCart.tc_007SearchAddItemInCart()'><b>tc_007SearchAddItemInCart</b><br>Test class: ecommercetest.TC_007SearchAddItemInCart</td>
+<td></td>
+<td>50</td>
+<td>ecommercetest.TC_007SearchAddItemInCart@7a35b0f5</td></tr>
+<tr>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Top Deals, Top Deals and Featured Offers on Electronics - Best Buy</td>
+<td></td>
+<td>17</td>
+<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
+<tr>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Deal of the Day, Deal of the Day: Electronics Deals - Best Buy</td>
+<td></td>
+<td>18</td>
+<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
 <tr>
 <td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: My Best Buy Memberships, My Best Buy Memberships</td>
 <td></td>
 <td>15</td>
 <td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
 <tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet</td>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Credit Cards, Best Buy Credit Card: Rewards & Financing</td>
 <td></td>
-<td>13</td>
+<td>16</td>
 <td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_007SearchAddItemInCart.tc_007SearchAddItemInCart()'><b>tc_007SearchAddItemInCart</b><br>Test class: ecommercetest.TC_007SearchAddItemInCart</td>
-<td></td>
-<td>37</td>
-<td>ecommercetest.TC_007SearchAddItemInCart@7a35b0f5</td></tr>
 <tr>
 <td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: , EcomBest_Buy24, //p[text()='Please enter a valid email address.'], Please enter a valid email address.</td>
 <td></td>
-<td>17</td>
+<td>16</td>
+<td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
+<tr>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Gift Ideas, Gift Ideas 2024: Best Gifts to Give This Year</td>
+<td></td>
+<td>22</td>
+<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
+<tr>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: K-12 Tech, Parent Hub - Best Buy</td>
+<td></td>
+<td>19</td>
+<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
+<tr>
+<td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: Best_Buygmail.com, EcomBest_Buy24, //p[text()='Please enter a valid email address.'], Please enter a valid email address.</td>
+<td></td>
+<td>21</td>
 <td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
 <tr>
 <td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Clearance Deals, Clearance Electronics Outlet - Best Buy</td>
 <td></td>
-<td>17</td>
+<td>16</td>
 <td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
 <tr>
 <td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Home Gym, Home Gym Equipment & Machines - Best Buy</td>
 <td></td>
+<td>17</td>
+<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
+<tr>
+<td title='ecommercetest.TC_003SignIn.tc_003SignIn()'><b>tc_003SignIn</b><br>Test class: ecommercetest.TC_003SignIn<br>Parameters: Best_Buy24@gmail.com, EcomBest_Buy, //div[text()='Sorry, something went wrong. Please try again.'], Sorry, something went wrong. Please try again.</td>
+<td></td>
+<td>22</td>
+<td>ecommercetest.TC_003SignIn@2cb4893b</td></tr>
+<tr>
+<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Best Buy Business, Best Buy for Business - Best Buy</td>
+<td></td>
 <td>14</td>
 <td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Credit Cards, Best Buy Credit Card: Rewards & Financing</td>
-<td></td>
-<td>13</td>
-<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_005ValidateMenu.tc_005validateMenu()'><b>tc_005validateMenu</b><br>Test class: ecommercetest.TC_005ValidateMenu<br>Parameters: Gift Ideas, Gift Ideas 2024: Best Gifts to Give This Year</td>
-<td></td>
-<td>13</td>
-<td>ecommercetest.TC_005ValidateMenu@5e2c3d18</td></tr>
-<tr>
-<td title='ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling()'><b>tc_010CheckOutPageFilling</b><br>Test class: ecommercetest.TC_010CheckoutPage<br>Parameters: Best_Buy24@gmail.com, 9837426748, Request failed because of network connection</td>
-<td></td>
-<td>64</td>
-<td>ecommercetest.TC_010CheckoutPage@72cc7e6f</td></tr>
 </table><p>
 </body>
 </html>

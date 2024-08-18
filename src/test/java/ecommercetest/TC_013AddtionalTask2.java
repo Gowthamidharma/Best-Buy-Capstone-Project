@@ -23,7 +23,7 @@ public class TC_013AddtionalTask2 extends PSMethodecommerce {
 	
 	
 	
-	@Test(dataProvider="getdata",priority = 6)
+	@Test(dataProvider="getdata",priority = 4)
 	public void tc_013_A_ForgotpasswordFunctionality(String email,String xpath,String expMsg) throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();
@@ -41,7 +41,7 @@ public class TC_013AddtionalTask2 extends PSMethodecommerce {
 
 	
 	
-	@Test(priority = 5)
+	@Test(priority = 1)
 	public void tc_013_B_AddItemByDeptMenuWithOffer() throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();

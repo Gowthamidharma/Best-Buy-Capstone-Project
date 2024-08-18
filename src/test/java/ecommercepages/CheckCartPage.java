@@ -45,7 +45,7 @@ public class CheckCartPage extends PSMethodecommerce {
 	@FindBy(xpath="//span[text()='Total']")
 	WebElement altcheckOutInCart2;
 	
-	@FindBy(xpath="//h2[text()='Order Summary']")
+	@FindBy(css = ".btn.btn-lg.btn-block.btn-primary")
 	WebElement altcheckOutInCart1;	
 	
 	@FindBy(xpath="//button[text()='Checkout']")
@@ -99,13 +99,12 @@ public class CheckCartPage extends PSMethodecommerce {
 	//method to increase the select item number in cart page
 	public void selectNoOfItemsInAirfryer() {
 		selectFromDropDown(selectNumberinAirfryer, "2");
-		waitExplicit(checkOutInCart);
+		waitExplicit(altcheckOutInCart1);
 	}
 	
 	//method for checkout
 	public void goToCheckOutPage() {		
-		//jsScrollUntillElement(altcheckOutInCart1);
-		waitExplicit(checkOutInCart);
+		waitExplicit(altcheckOutInCart1);
 		clickOn(checkOutInCart);
 	}
 	

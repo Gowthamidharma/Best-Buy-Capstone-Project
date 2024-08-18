@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="46" passed="44" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-18T08:37:54 GST" name="Suite1" finished-at="2024-08-18T08:44:43 GST" duration-ms="409054">
+  <suite started-at="2024-08-18T13:31:28 GST" name="Suite1" finished-at="2024-08-18T13:38:22 GST" duration-ms="414175">
     <groups>
     </groups>
-    <test started-at="2024-08-18T08:37:54 GST" name="Test1" finished-at="2024-08-18T08:44:43 GST" duration-ms="409054">
+    <test started-at="2024-08-18T13:31:28 GST" name="Test1" finished-at="2024-08-18T13:38:22 GST" duration-ms="414175">
       <class name="ecommercetest.TC_002ValidateBrokenURL">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@48075da3]" started-at="2024-08-18T08:37:54 GST" name="setup" finished-at="2024-08-18T08:37:54 GST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@312aa7c]" started-at="2024-08-18T13:31:28 GST" name="setup" finished-at="2024-08-18T13:31:28 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@48075da3]" started-at="2024-08-18T08:43:20 GST" name="testDetails" finished-at="2024-08-18T08:43:20 GST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@312aa7c]" started-at="2024-08-18T13:36:56 GST" name="testDetails" finished-at="2024-08-18T13:36:56 GST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@48075da3]" started-at="2024-08-18T08:43:20 GST" name="start" finished-at="2024-08-18T08:43:22 GST" duration-ms="2199" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@312aa7c]" started-at="2024-08-18T13:36:56 GST" name="start" finished-at="2024-08-18T13:36:59 GST" duration-ms="2333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,29 +26,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_002validatebrokenurl()[pri:2, instance:ecommercetest.TC_002ValidateBrokenURL@48075da3]" started-at="2024-08-18T08:43:22 GST" name="tc_002validatebrokenurl" finished-at="2024-08-18T08:43:40 GST" duration-ms="18280" status="PASS">
+        <test-method signature="tc_002validatebrokenurl()[pri:2, instance:ecommercetest.TC_002ValidateBrokenURL@312aa7c]" started-at="2024-08-18T13:36:59 GST" name="tc_002validatebrokenurl" finished-at="2024-08-18T13:37:20 GST" duration-ms="20856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_002validatebrokenurl -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@48075da3]" started-at="2024-08-18T08:43:41 GST" name="close" finished-at="2024-08-18T08:43:42 GST" duration-ms="1813" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_002ValidateBrokenURL@312aa7c]" started-at="2024-08-18T13:37:20 GST" name="close" finished-at="2024-08-18T13:37:20 GST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommercetest.TC_002ValidateBrokenURL -->
       <class name="ecommercetest.TC_004CreateAccount">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:37:53 GST" name="startReport" finished-at="2024-08-18T08:37:54 GST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:28 GST" name="startReport" finished-at="2024-08-18T13:31:28 GST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:37:54 GST" name="setup" finished-at="2024-08-18T08:37:54 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:28 GST" name="setup" finished-at="2024-08-18T13:31:28 GST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:37:54 GST" name="testDetails" finished-at="2024-08-18T08:37:54 GST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:28 GST" name="testDetails" finished-at="2024-08-18T13:31:28 GST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:37:56 GST" name="start" finished-at="2024-08-18T08:38:03 GST" duration-ms="7417" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:28 GST" name="start" finished-at="2024-08-18T13:31:32 GST" duration-ms="3470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:03 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:38:26 GST" duration-ms="22903" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:32 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:31:53 GST" duration-ms="21305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:26 GST" name="close" finished-at="2024-08-18T08:38:27 GST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:53 GST" name="close" finished-at="2024-08-18T13:31:55 GST" duration-ms="1829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:27 GST" name="start" finished-at="2024-08-18T08:38:29 GST" duration-ms="2488" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:55 GST" name="start" finished-at="2024-08-18T13:31:58 GST" duration-ms="2620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:29 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:38:51 GST" duration-ms="21896" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:31:58 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:32:20 GST" duration-ms="22053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,11 +166,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:52 GST" name="close" finished-at="2024-08-18T08:38:52 GST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:20 GST" name="close" finished-at="2024-08-18T13:32:20 GST" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:52 GST" name="start" finished-at="2024-08-18T08:38:54 GST" duration-ms="2550" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:20 GST" name="start" finished-at="2024-08-18T13:32:23 GST" duration-ms="2220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:38:54 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:39:13 GST" duration-ms="18496" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:23 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:32:41 GST" duration-ms="18052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,11 +227,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:13 GST" name="close" finished-at="2024-08-18T08:39:14 GST" duration-ms="515" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:41 GST" name="close" finished-at="2024-08-18T13:32:42 GST" duration-ms="912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:14 GST" name="start" finished-at="2024-08-18T08:39:16 GST" duration-ms="2500" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:42 GST" name="start" finished-at="2024-08-18T13:32:45 GST" duration-ms="3208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,7 +242,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:16 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:39:34 GST" duration-ms="17834" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:32:45 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:33:03 GST" duration-ms="17735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,11 +288,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:34 GST" name="close" finished-at="2024-08-18T08:39:35 GST" duration-ms="731" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:03 GST" name="close" finished-at="2024-08-18T13:33:04 GST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:35 GST" name="start" finished-at="2024-08-18T08:39:38 GST" duration-ms="2729" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:04 GST" name="start" finished-at="2024-08-18T13:33:07 GST" duration-ms="3230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:38 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:39:57 GST" duration-ms="19933" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:07 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:33:29 GST" duration-ms="21910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,11 +349,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:58 GST" name="close" finished-at="2024-08-18T08:39:58 GST" duration-ms="796" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:29 GST" name="close" finished-at="2024-08-18T13:33:31 GST" duration-ms="1794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:39:58 GST" name="start" finished-at="2024-08-18T08:40:01 GST" duration-ms="2692" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:31 GST" name="start" finished-at="2024-08-18T13:33:33 GST" duration-ms="2595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -364,7 +364,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:01 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:40:23 GST" duration-ms="22251" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:33 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:33:53 GST" duration-ms="19196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -410,11 +410,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:23 GST" name="close" finished-at="2024-08-18T08:40:24 GST" duration-ms="794" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:53 GST" name="close" finished-at="2024-08-18T13:33:54 GST" duration-ms="1082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:24 GST" name="start" finished-at="2024-08-18T08:40:27 GST" duration-ms="2560" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:54 GST" name="start" finished-at="2024-08-18T13:33:56 GST" duration-ms="2506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:27 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:40:47 GST" duration-ms="19698" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:33:56 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:34:12 GST" duration-ms="15864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -471,11 +471,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:47 GST" name="close" finished-at="2024-08-18T08:40:47 GST" duration-ms="738" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:12 GST" name="close" finished-at="2024-08-18T13:34:13 GST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:47 GST" name="start" finished-at="2024-08-18T08:40:50 GST" duration-ms="2480" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:13 GST" name="start" finished-at="2024-08-18T13:34:15 GST" duration-ms="2294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -486,7 +486,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:40:50 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:41:08 GST" duration-ms="17696" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:15 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:34:34 GST" duration-ms="18738" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -532,11 +532,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:08 GST" name="close" finished-at="2024-08-18T08:41:08 GST" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:34 GST" name="close" finished-at="2024-08-18T13:34:35 GST" duration-ms="1081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:08 GST" name="start" finished-at="2024-08-18T08:41:10 GST" duration-ms="1520" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:35 GST" name="start" finished-at="2024-08-18T13:34:38 GST" duration-ms="2668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -547,7 +547,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:10 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:41:27 GST" duration-ms="17152" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:38 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:34:55 GST" duration-ms="17298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -593,11 +593,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:27 GST" name="close" finished-at="2024-08-18T08:41:28 GST" duration-ms="644" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:56 GST" name="close" finished-at="2024-08-18T13:34:56 GST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:28 GST" name="start" finished-at="2024-08-18T08:41:31 GST" duration-ms="3092" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:56 GST" name="start" finished-at="2024-08-18T13:34:58 GST" duration-ms="1570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -608,7 +608,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:31 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:41:48 GST" duration-ms="17134" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:34:58 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:35:20 GST" duration-ms="21872" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -654,11 +654,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:48 GST" name="close" finished-at="2024-08-18T08:41:49 GST" duration-ms="490" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:20 GST" name="close" finished-at="2024-08-18T13:35:22 GST" duration-ms="1972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:49 GST" name="start" finished-at="2024-08-18T08:41:51 GST" duration-ms="2442" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:22 GST" name="start" finished-at="2024-08-18T13:35:25 GST" duration-ms="2547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -669,7 +669,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:41:51 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:42:19 GST" duration-ms="27833" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:25 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:35:45 GST" duration-ms="20405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -715,11 +715,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:19 GST" name="close" finished-at="2024-08-18T08:42:20 GST" duration-ms="1084" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:45 GST" name="close" finished-at="2024-08-18T13:35:47 GST" duration-ms="1716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:20 GST" name="start" finished-at="2024-08-18T08:42:23 GST" duration-ms="2409" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:47 GST" name="start" finished-at="2024-08-18T13:35:49 GST" duration-ms="2448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,7 +730,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:23 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:42:40 GST" duration-ms="17517" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:35:49 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:36:08 GST" duration-ms="18638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -776,11 +776,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:40 GST" name="close" finished-at="2024-08-18T08:42:41 GST" duration-ms="907" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:08 GST" name="close" finished-at="2024-08-18T13:36:10 GST" duration-ms="1464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:41 GST" name="start" finished-at="2024-08-18T08:42:44 GST" duration-ms="2442" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:10 GST" name="start" finished-at="2024-08-18T13:36:12 GST" duration-ms="2299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -791,7 +791,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:42:44 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:43:00 GST" duration-ms="16424" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:12 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:36:29 GST" duration-ms="17401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,11 +837,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:43:00 GST" name="close" finished-at="2024-08-18T08:43:01 GST" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:29 GST" name="close" finished-at="2024-08-18T13:36:30 GST" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:43:01 GST" name="start" finished-at="2024-08-18T08:43:03 GST" duration-ms="2219" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:30 GST" name="start" finished-at="2024-08-18T13:36:34 GST" duration-ms="3379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -852,7 +852,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:43:03 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T08:43:19 GST" duration-ms="15955" status="PASS">
+        <test-method signature="tc_004_validateCreatAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:34 GST" name="tc_004_validateCreatAccount" data-provider="getdata" finished-at="2024-08-18T13:36:54 GST" duration-ms="20480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -898,25 +898,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_004_validateCreatAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:43:19 GST" name="close" finished-at="2024-08-18T08:43:20 GST" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:36:54 GST" name="close" finished-at="2024-08-18T13:36:56 GST" duration-ms="2144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_004CreateAccount@3f191845]" started-at="2024-08-18T08:44:43 GST" name="endReport" finished-at="2024-08-18T08:44:43 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_004CreateAccount@c430e6c]" started-at="2024-08-18T13:38:22 GST" name="endReport" finished-at="2024-08-18T13:38:22 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- ecommercetest.TC_004CreateAccount -->
       <class name="ecommercetest.TC_006ValidateBottomLinks">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:37:54 GST" name="setup" finished-at="2024-08-18T08:37:54 GST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:31:28 GST" name="setup" finished-at="2024-08-18T13:31:28 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:43:47 GST" name="testDetails" finished-at="2024-08-18T08:43:47 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:24 GST" name="testDetails" finished-at="2024-08-18T13:37:24 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:43:47 GST" name="start" finished-at="2024-08-18T08:43:50 GST" duration-ms="2882" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:25 GST" name="start" finished-at="2024-08-18T13:37:28 GST" duration-ms="3014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -927,7 +927,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:43:50 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T08:44:06 GST" duration-ms="15698" status="PASS">
+        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:28 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T13:37:43 GST" duration-ms="14895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -943,11 +943,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_006validatebottomlink -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:06 GST" name="close" finished-at="2024-08-18T08:44:09 GST" duration-ms="2825" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:43 GST" name="close" finished-at="2024-08-18T13:37:44 GST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:09 GST" name="start" finished-at="2024-08-18T08:44:11 GST" duration-ms="2117" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:44 GST" name="start" finished-at="2024-08-18T13:37:46 GST" duration-ms="2341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -958,7 +958,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:11 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T08:44:25 GST" duration-ms="13907" status="PASS">
+        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:37:46 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T13:38:01 GST" duration-ms="14216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -974,11 +974,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_006validatebottomlink -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:25 GST" name="close" finished-at="2024-08-18T08:44:26 GST" duration-ms="903" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:38:01 GST" name="close" finished-at="2024-08-18T13:38:01 GST" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:26 GST" name="start" finished-at="2024-08-18T08:44:28 GST" duration-ms="1892" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:38:01 GST" name="start" finished-at="2024-08-18T13:38:04 GST" duration-ms="2509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -989,7 +989,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:28 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T08:44:41 GST" duration-ms="13648" status="PASS">
+        <test-method signature="tc_006validatebottomlink(java.lang.String,java.lang.String)[pri:3, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:38:04 GST" name="tc_006validatebottomlink" data-provider="getdata" finished-at="2024-08-18T13:38:20 GST" duration-ms="15883" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1005,17 +1005,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_006validatebottomlink -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@7a35b0f5]" started-at="2024-08-18T08:44:42 GST" name="close" finished-at="2024-08-18T08:44:43 GST" duration-ms="966" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_006ValidateBottomLinks@72bc6553]" started-at="2024-08-18T13:38:20 GST" name="close" finished-at="2024-08-18T13:38:22 GST" duration-ms="1955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommercetest.TC_006ValidateBottomLinks -->
       <class name="ecommercetest.TC_001NavigatetoURL">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@68c9133c]" started-at="2024-08-18T08:37:54 GST" name="setup" finished-at="2024-08-18T08:37:54 GST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@536f2a7e]" started-at="2024-08-18T13:31:28 GST" name="setup" finished-at="2024-08-18T13:31:28 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_001NavigatetoURL@68c9133c]" started-at="2024-08-18T08:43:42 GST" name="start" finished-at="2024-08-18T08:43:46 GST" duration-ms="3471" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@536f2a7e]" started-at="2024-08-18T13:37:20 GST" name="testDetails" finished-at="2024-08-18T13:37:20 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_001NavigatetoURL@536f2a7e]" started-at="2024-08-18T13:37:20 GST" name="start" finished-at="2024-08-18T13:37:23 GST" duration-ms="2849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1026,54 +1030,713 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@68c9133c]" started-at="2024-08-18T08:43:42 GST" name="testDetails" finished-at="2024-08-18T08:43:42 GST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method signature="tc_001navigatToBestBest()[pri:4, instance:ecommercetest.TC_001NavigatetoURL@68c9133c]" started-at="2024-08-18T08:43:46 GST" name="tc_001navigatToBestBest" finished-at="2024-08-18T08:43:46 GST" duration-ms="439" status="PASS">
+        <test-method signature="tc_001navigatToBestBest()[pri:4, instance:ecommercetest.TC_001NavigatetoURL@536f2a7e]" started-at="2024-08-18T13:37:23 GST" name="tc_001navigatToBestBest" finished-at="2024-08-18T13:37:24 GST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001navigatToBestBest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@68c9133c]" started-at="2024-08-18T08:43:47 GST" name="close" finished-at="2024-08-18T08:43:47 GST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_001NavigatetoURL@536f2a7e]" started-at="2024-08-18T13:37:24 GST" name="close" finished-at="2024-08-18T13:37:24 GST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommercetest.TC_001NavigatetoURL -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
-  <suite started-at="2024-08-18T08:44:44 GST" name="Suite3" finished-at="2024-08-18T08:50:36 GST" duration-ms="352362">
+  <suite started-at="2024-08-18T13:23:33 GST" name="Suite2" finished-at="2024-08-18T13:31:27 GST" duration-ms="473488">
     <groups>
     </groups>
-    <test started-at="2024-08-18T08:44:44 GST" name="Test3" finished-at="2024-08-18T08:50:36 GST" duration-ms="352362">
-      <class name="ecommercetest.TC_012AdditionalTask1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:44:44 GST" name="setup" finished-at="2024-08-18T08:44:44 GST" duration-ms="0" status="PASS">
+    <test started-at="2024-08-18T13:23:33 GST" name="Test2" finished-at="2024-08-18T13:31:27 GST" duration-ms="473488">
+      <class name="ecommercetest.TC_007SearchAddItemInCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_007SearchAddItemInCart@7a35b0f5]" started-at="2024-08-18T13:23:33 GST" name="setup" finished-at="2024-08-18T13:23:33 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:10 GST" name="start" finished-at="2024-08-18T08:48:14 GST" duration-ms="3247" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:10 GST" name="testDetails" finished-at="2024-08-18T08:48:10 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_007SearchAddItemInCart@7a35b0f5]" started-at="2024-08-18T13:24:39 GST" name="testDetails" finished-at="2024-08-18T13:24:39 GST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method signature="tc_012_C_ValiadateBrokenLinksInSignInPage()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:14 GST" name="tc_012_C_ValiadateBrokenLinksInSignInPage" finished-at="2024-08-18T08:48:53 GST" duration-ms="39687" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_007SearchAddItemInCart@7a35b0f5]" started-at="2024-08-18T13:24:39 GST" name="start" finished-at="2024-08-18T13:24:43 GST" duration-ms="4089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_007SearchAddItemInCart()[pri:3, instance:ecommercetest.TC_007SearchAddItemInCart@7a35b0f5]" started-at="2024-08-18T13:24:43 GST" name="tc_007SearchAddItemInCart" finished-at="2024-08-18T13:25:34 GST" duration-ms="50697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007SearchAddItemInCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_007SearchAddItemInCart@7a35b0f5]" started-at="2024-08-18T13:25:35 GST" name="close" finished-at="2024-08-18T13:25:39 GST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ecommercetest.TC_007SearchAddItemInCart -->
+      <class name="ecommercetest.TC_010CheckoutPage">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:23:33 GST" name="startReport" finished-at="2024-08-18T13:23:33 GST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:23:33 GST" name="setup" finished-at="2024-08-18T13:23:33 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:23:33 GST" name="testDetails" finished-at="2024-08-18T13:23:33 GST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:23:35 GST" name="start" finished-at="2024-08-18T13:23:45 GST" duration-ms="9692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_010CheckOutPageFilling(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:23:45 GST" name="tc_010CheckOutPageFilling" data-provider="getdata" finished-at="2024-08-18T13:24:34 GST" duration-ms="49548" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best_Buy24@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9837426748]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Request failed because of network connection]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1119, 401). Other element would receive the click: <div class="page-spinner page-spinner--out">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -> xpath: //button[text()='Checkout']]
+Session ID: f2caf57cd48825eed907a949b5ce681e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1119, 401). Other element would receive the click: <div class="page-spinner page-spinner--out">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2caf57cd48825eed907a949b5ce681e, clickElement {id=f.04008C531FA6C93FE267381F33EA4AE5.d.3AF64154CF45285B101AFD74F2CB212B.e.413}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54104}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Lishanth\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54104/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f2caf57cd48825eed907a949b5ce681e)] -> xpath: //button[text()='Checkout']]
+Session ID: f2caf57cd48825eed907a949b5ce681e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+at ecommercepages.CheckCartPage.goToCheckOutPage(CheckCartPage.java:109)
+at ecommercetest.TC_010CheckoutPage.tc_010CheckOutPageFilling(TC_010CheckoutPage.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_010CheckOutPageFilling -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:24:35 GST" name="close" finished-at="2024-08-18T13:24:39 GST" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_010CheckoutPage@72cc7e6f]" started-at="2024-08-18T13:31:28 GST" name="endReport" finished-at="2024-08-18T13:31:28 GST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- ecommercetest.TC_010CheckoutPage -->
+      <class name="ecommercetest.TC_005ValidateMenu">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:23:33 GST" name="setup" finished-at="2024-08-18T13:23:33 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:25:39 GST" name="testDetails" finished-at="2024-08-18T13:25:39 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:25:39 GST" name="start" finished-at="2024-08-18T13:25:42 GST" duration-ms="2942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:25:42 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:26:02 GST" duration-ms="19432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K-12 Tech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parent Hub - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:02 GST" name="close" finished-at="2024-08-18T13:26:05 GST" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:05 GST" name="start" finished-at="2024-08-18T13:26:08 GST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:08 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:26:26 GST" duration-ms="17735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Top Deals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Top Deals and Featured Offers on Electronics - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:27 GST" name="close" finished-at="2024-08-18T13:26:29 GST" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:29 GST" name="start" finished-at="2024-08-18T13:26:32 GST" duration-ms="3312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:32 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:26:51 GST" duration-ms="18352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deal of the Day]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deal of the Day: Electronics Deals - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:51 GST" name="close" finished-at="2024-08-18T13:26:54 GST" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:54 GST" name="start" finished-at="2024-08-18T13:26:58 GST" duration-ms="3491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:26:58 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:27:15 GST" duration-ms="16979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Clearance Deals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Clearance Electronics Outlet - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:17 GST" name="close" finished-at="2024-08-18T13:27:20 GST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:20 GST" name="start" finished-at="2024-08-18T13:27:22 GST" duration-ms="2256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:22 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:27:38 GST" duration-ms="16619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Credit Cards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy Credit Card: Rewards & Financing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:39 GST" name="close" finished-at="2024-08-18T13:27:41 GST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:41 GST" name="start" finished-at="2024-08-18T13:27:44 GST" duration-ms="3350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:27:44 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:27:59 GST" duration-ms="15334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My Best Buy Memberships]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My Best Buy Memberships]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:01 GST" name="close" finished-at="2024-08-18T13:28:04 GST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:04 GST" name="start" finished-at="2024-08-18T13:28:07 GST" duration-ms="3529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:07 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:28:30 GST" duration-ms="22281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gift Ideas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gift Ideas 2024: Best Gifts to Give This Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:30 GST" name="close" finished-at="2024-08-18T13:28:32 GST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:32 GST" name="start" finished-at="2024-08-18T13:28:36 GST" duration-ms="3696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:36 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:28:54 GST" duration-ms="17845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home Gym]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home Gym Equipment & Machines - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:54 GST" name="close" finished-at="2024-08-18T13:28:57 GST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:28:57 GST" name="start" finished-at="2024-08-18T13:29:00 GST" duration-ms="2948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:29:00 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:29:18 GST" duration-ms="18007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Buy Outlet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy Outlet: Clearance Electronics Outlet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:29:19 GST" name="close" finished-at="2024-08-18T13:29:22 GST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:29:22 GST" name="start" finished-at="2024-08-18T13:29:25 GST" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_005validateMenu(java.lang.String,java.lang.String)[pri:2, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:29:25 GST" name="tc_005validateMenu" data-provider="getdata" finished-at="2024-08-18T13:29:39 GST" duration-ms="14199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Buy Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy for Business - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005validateMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_005ValidateMenu@5e2c3d18]" started-at="2024-08-18T13:29:39 GST" name="close" finished-at="2024-08-18T13:29:42 GST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ecommercetest.TC_005ValidateMenu -->
+      <class name="ecommercetest.TC_003SignIn">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:23:33 GST" name="setup" finished-at="2024-08-18T13:23:33 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:29:42 GST" name="testDetails" finished-at="2024-08-18T13:29:42 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:29:42 GST" name="start" finished-at="2024-08-18T13:29:46 GST" duration-ms="4113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_003SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:29:46 GST" name="tc_003SignIn" data-provider="getdata" finished-at="2024-08-18T13:30:07 GST" duration-ms="21002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best_Buygmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EcomBest_Buy24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//p[text()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003SignIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:08 GST" name="close" finished-at="2024-08-18T13:30:11 GST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:11 GST" name="start" finished-at="2024-08-18T13:30:15 GST" duration-ms="4219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_003SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:15 GST" name="tc_003SignIn" data-provider="getdata" finished-at="2024-08-18T13:30:32 GST" duration-ms="16971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EcomBest_Buy24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//p[text()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003SignIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:32 GST" name="close" finished-at="2024-08-18T13:30:35 GST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:35 GST" name="start" finished-at="2024-08-18T13:30:37 GST" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_003SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:37 GST" name="tc_003SignIn" data-provider="getdata" finished-at="2024-08-18T13:30:54 GST" duration-ms="16914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best_Buy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//p[text()='Please enter your password.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter your password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003SignIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:54 GST" name="close" finished-at="2024-08-18T13:30:56 GST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:30:56 GST" name="start" finished-at="2024-08-18T13:31:00 GST" duration-ms="4137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_003SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:31:00 GST" name="tc_003SignIn" data-provider="getdata" finished-at="2024-08-18T13:31:23 GST" duration-ms="22883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best_Buy24@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EcomBest_Buy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[text()='Sorry, something went wrong. Please try again.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sorry, something went wrong. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003SignIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_003SignIn@2cb4893b]" started-at="2024-08-18T13:31:23 GST" name="close" finished-at="2024-08-18T13:31:27 GST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ecommercetest.TC_003SignIn -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+  <suite started-at="2024-08-18T13:38:23 GST" name="Suite3" finished-at="2024-08-18T13:44:26 GST" duration-ms="363323">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T13:38:23 GST" name="Test3" finished-at="2024-08-18T13:44:26 GST" duration-ms="363323">
+      <class name="ecommercetest.TC_012AdditionalTask1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:38:23 GST" name="setup" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:41:32 GST" name="testDetails" finished-at="2024-08-18T13:41:32 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:41:32 GST" name="start" finished-at="2024-08-18T13:41:35 GST" duration-ms="2673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_012_C_ValiadateBrokenLinksInSignInPage()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:41:35 GST" name="tc_012_C_ValiadateBrokenLinksInSignInPage" finished-at="2024-08-18T13:42:26 GST" duration-ms="50977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_012_C_ValiadateBrokenLinksInSignInPage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:53 GST" name="close" finished-at="2024-08-18T08:48:54 GST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:26 GST" name="close" finished-at="2024-08-18T13:42:28 GST" duration-ms="2071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:54 GST" name="start" finished-at="2024-08-18T08:48:56 GST" duration-ms="2559" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:28 GST" name="start" finished-at="2024-08-18T13:42:32 GST" duration-ms="3228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1084,26 +1747,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_012_B_validateBusinessAccount()[pri:3, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:48:56 GST" name="tc_012_B_validateBusinessAccount" finished-at="2024-08-18T08:49:16 GST" duration-ms="19337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_012_B_validateBusinessAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:16 GST" name="close" finished-at="2024-08-18T08:49:16 GST" duration-ms="562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:17 GST" name="start" finished-at="2024-08-18T08:49:19 GST" duration-ms="2366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:19 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T08:49:36 GST" duration-ms="16607" status="PASS">
+        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:5, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:32 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T13:42:51 GST" duration-ms="19094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1119,11 +1763,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_012_A_SearchBoxValidation -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:36 GST" name="close" finished-at="2024-08-18T08:49:37 GST" duration-ms="654" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:51 GST" name="close" finished-at="2024-08-18T13:42:54 GST" duration-ms="3249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:37 GST" name="start" finished-at="2024-08-18T08:49:40 GST" duration-ms="3150" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:54 GST" name="start" finished-at="2024-08-18T13:42:57 GST" duration-ms="2987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1134,7 +1778,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:40 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T08:49:56 GST" duration-ms="15985" status="PASS">
+        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:5, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:42:57 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T13:43:17 GST" duration-ms="19168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1150,11 +1794,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_012_A_SearchBoxValidation -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:56 GST" name="close" finished-at="2024-08-18T08:49:56 GST" duration-ms="592" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:17 GST" name="close" finished-at="2024-08-18T13:43:18 GST" duration-ms="1145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:56 GST" name="start" finished-at="2024-08-18T08:49:59 GST" duration-ms="2145" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:18 GST" name="start" finished-at="2024-08-18T13:43:20 GST" duration-ms="2377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1165,7 +1809,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:49:59 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T08:50:14 GST" duration-ms="15498" status="PASS">
+        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:5, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:20 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T13:43:36 GST" duration-ms="15549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1181,11 +1825,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_012_A_SearchBoxValidation -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:50:14 GST" name="close" finished-at="2024-08-18T08:50:15 GST" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:37 GST" name="close" finished-at="2024-08-18T13:43:38 GST" duration-ms="1444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:50:15 GST" name="start" finished-at="2024-08-18T08:50:17 GST" duration-ms="1772" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:38 GST" name="start" finished-at="2024-08-18T13:43:41 GST" duration-ms="2975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1196,7 +1840,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:50:17 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T08:50:35 GST" duration-ms="18605" status="PASS">
+        <test-method signature="tc_012_A_SearchBoxValidation(java.lang.String,java.lang.String)[pri:5, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:41 GST" name="tc_012_A_SearchBoxValidation" data-provider="getdata" finished-at="2024-08-18T13:43:57 GST" duration-ms="15912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1212,21 +1856,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_012_A_SearchBoxValidation -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@4bdeaabb]" started-at="2024-08-18T08:50:36 GST" name="close" finished-at="2024-08-18T08:50:36 GST" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:57 GST" name="close" finished-at="2024-08-18T13:43:59 GST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:43:59 GST" name="start" finished-at="2024-08-18T13:44:01 GST" duration-ms="2472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="tc_012_B_validateBusinessAccount()[pri:6, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:44:01 GST" name="tc_012_B_validateBusinessAccount" finished-at="2024-08-18T13:44:24 GST" duration-ms="22247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_012_B_validateBusinessAccount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_012AdditionalTask1@5965d37]" started-at="2024-08-18T13:44:24 GST" name="close" finished-at="2024-08-18T13:44:26 GST" duration-ms="1623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommercetest.TC_012AdditionalTask1 -->
       <class name="ecommercetest.TC_009AddItemByBrand">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@70cf32e3]" started-at="2024-08-18T08:44:44 GST" name="setup" finished-at="2024-08-18T08:44:44 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@4007f65e]" started-at="2024-08-18T13:38:23 GST" name="setup" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@70cf32e3]" started-at="2024-08-18T08:47:19 GST" name="testDetails" finished-at="2024-08-18T08:47:19 GST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@4007f65e]" started-at="2024-08-18T13:39:36 GST" name="testDetails" finished-at="2024-08-18T13:39:36 GST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_009AddItemByBrand@70cf32e3]" started-at="2024-08-18T08:47:20 GST" name="start" finished-at="2024-08-18T08:47:22 GST" duration-ms="2239" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_009AddItemByBrand@4007f65e]" started-at="2024-08-18T13:39:36 GST" name="start" finished-at="2024-08-18T13:39:39 GST" duration-ms="3383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1237,29 +1900,104 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_009AddItemShopByBrandMenu()[pri:2, instance:ecommercetest.TC_009AddItemByBrand@70cf32e3]" started-at="2024-08-18T08:47:22 GST" name="tc_009AddItemShopByBrandMenu" finished-at="2024-08-18T08:48:08 GST" duration-ms="46557" status="PASS">
+        <test-method signature="tc_009AddItemShopByBrandMenu()[pri:3, instance:ecommercetest.TC_009AddItemByBrand@4007f65e]" started-at="2024-08-18T13:39:39 GST" name="tc_009AddItemShopByBrandMenu" finished-at="2024-08-18T13:39:52 GST" duration-ms="12345" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="c-button-unstyled hamburger-menu-button" type="button" aria-controls="flyout-container" aria-expanded="false" aria-label="Menu">...</button> is not clickable at point (198, 77). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a08c3d0955b467f33a7cfb47aa583a9, clickElement {id=f.CDECC0697D2175352C7BCD7023E41602.d.8BF41813A76475DFDD25FF208555D7C9.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Lishanth\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7a08c3d0955b467f33a7cfb47aa583a9)] -> xpath: //button[@aria-label='Menu']]
+Session ID: 7a08c3d0955b467f33a7cfb47aa583a9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="c-button-unstyled hamburger-menu-button" type="button" aria-controls="flyout-container" aria-expanded="false" aria-label="Menu">...</button> is not clickable at point (198, 77). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a08c3d0955b467f33a7cfb47aa583a9, clickElement {id=f.CDECC0697D2175352C7BCD7023E41602.d.8BF41813A76475DFDD25FF208555D7C9.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Lishanth\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7a08c3d0955b467f33a7cfb47aa583a9)] -> xpath: //button[@aria-label='Menu']]
+Session ID: 7a08c3d0955b467f33a7cfb47aa583a9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy36.click(Unknown Source)
+at ecommerceutils.Utilsecommerce.clickOn(Utilsecommerce.java:145)
+at ecommercepages.Homepage.selectDellBrandInHomePage(Homepage.java:168)
+at ecommercetest.TC_009AddItemByBrand.tc_009AddItemShopByBrandMenu(TC_009AddItemByBrand.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_009AddItemShopByBrandMenu -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@70cf32e3]" started-at="2024-08-18T08:48:09 GST" name="close" finished-at="2024-08-18T08:48:10 GST" duration-ms="1719" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_009AddItemByBrand@4007f65e]" started-at="2024-08-18T13:39:52 GST" name="close" finished-at="2024-08-18T13:39:53 GST" duration-ms="990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- ecommercetest.TC_009AddItemByBrand -->
       <class name="ecommercetest.TC_013AddtionalTask2">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:44:43 GST" name="startReport" finished-at="2024-08-18T08:44:44 GST" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:44:44 GST" name="setup" finished-at="2024-08-18T08:44:44 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:38:23 GST" name="setup" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:44:44 GST" name="testDetails" finished-at="2024-08-18T08:44:44 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:39:53 GST" name="testDetails" finished-at="2024-08-18T13:39:53 GST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:44:44 GST" name="start" finished-at="2024-08-18T08:44:46 GST" duration-ms="2847" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:39:53 GST" name="start" finished-at="2024-08-18T13:39:55 GST" duration-ms="2071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1270,15 +2008,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_013_B_AddItemByDeptMenuWithOffer()[pri:5, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:44:46 GST" name="tc_013_B_AddItemByDeptMenuWithOffer" finished-at="2024-08-18T08:45:43 GST" duration-ms="56491" status="PASS">
+        <test-method signature="tc_013_B_AddItemByDeptMenuWithOffer()[pri:1, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:39:55 GST" name="tc_013_B_AddItemByDeptMenuWithOffer" finished-at="2024-08-18T13:40:48 GST" duration-ms="52987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_013_B_AddItemByDeptMenuWithOffer -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:45:43 GST" name="close" finished-at="2024-08-18T08:45:44 GST" duration-ms="1296" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:40:48 GST" name="close" finished-at="2024-08-18T13:40:50 GST" duration-ms="2294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:45:45 GST" name="start" finished-at="2024-08-18T08:45:48 GST" duration-ms="3225" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:40:51 GST" name="start" finished-at="2024-08-18T13:40:53 GST" duration-ms="2412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1289,7 +2027,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:45:48 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T08:46:04 GST" duration-ms="16444" status="PASS">
+        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:40:53 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T13:41:10 GST" duration-ms="16694" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1310,11 +2048,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_013_A_ForgotpasswordFunctionality -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:46:05 GST" name="close" finished-at="2024-08-18T08:46:06 GST" duration-ms="936" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:41:10 GST" name="close" finished-at="2024-08-18T13:41:12 GST" duration-ms="2358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:46:06 GST" name="start" finished-at="2024-08-18T08:46:07 GST" duration-ms="1897" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:41:12 GST" name="start" finished-at="2024-08-18T13:41:15 GST" duration-ms="2402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1325,7 +2063,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:46:07 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T08:46:26 GST" duration-ms="18759" status="PASS">
+        <test-method signature="tc_013_A_ForgotpasswordFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:41:15 GST" name="tc_013_A_ForgotpasswordFunctionality" data-provider="getdata" finished-at="2024-08-18T13:41:31 GST" duration-ms="16281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1346,31 +2084,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_013_A_ForgotpasswordFunctionality -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:46:26 GST" name="close" finished-at="2024-08-18T08:46:27 GST" duration-ms="737" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@673fdbce]" started-at="2024-08-18T13:41:31 GST" name="close" finished-at="2024-08-18T13:41:32 GST" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_013AddtionalTask2@72bc6553]" started-at="2024-08-18T08:50:36 GST" name="endReport" finished-at="2024-08-18T08:50:36 GST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
       </class> <!-- ecommercetest.TC_013AddtionalTask2 -->
       <class name="ecommercetest.TC_011CheckOutCardDetails">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_011CheckOutCardDetails@5a59ca5e]" started-at="2024-08-18T08:44:44 GST" name="setup" finished-at="2024-08-18T08:44:44 GST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_011CheckOutCardDetails@1a245833]" started-at="2024-08-18T13:38:23 GST" name="setup" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- ecommercetest.TC_011CheckOutCardDetails -->
       <class name="ecommercetest.TC_008AddItemByDept">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_008AddItemByDept@66982506]" started-at="2024-08-18T08:44:44 GST" name="setup" finished-at="2024-08-18T08:44:44 GST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:38:22 GST" name="startReport" finished-at="2024-08-18T13:38:23 GST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:38:23 GST" name="setup" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_008AddItemByDept@66982506]" started-at="2024-08-18T08:46:27 GST" name="testDetails" finished-at="2024-08-18T08:46:27 GST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:38:23 GST" name="testDetails" finished-at="2024-08-18T13:38:23 GST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_008AddItemByDept@66982506]" started-at="2024-08-18T08:46:27 GST" name="start" finished-at="2024-08-18T08:46:30 GST" duration-ms="2836" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:38:23 GST" name="start" finished-at="2024-08-18T13:38:26 GST" duration-ms="3218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1381,14 +2119,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="tc_008AddItemByDeptMenu()[pri:1, instance:ecommercetest.TC_008AddItemByDept@66982506]" started-at="2024-08-18T08:46:30 GST" name="tc_008AddItemByDeptMenu" finished-at="2024-08-18T08:47:18 GST" duration-ms="48006" status="PASS">
+        <test-method signature="tc_008AddItemByDeptMenu()[pri:2, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:38:26 GST" name="tc_008AddItemByDeptMenu" finished-at="2024-08-18T13:39:27 GST" duration-ms="61031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_008AddItemByDeptMenu -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_008AddItemByDept@66982506]" started-at="2024-08-18T08:47:18 GST" name="close" finished-at="2024-08-18T08:47:19 GST" duration-ms="1151" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:39:28 GST" name="close" finished-at="2024-08-18T13:39:36 GST" duration-ms="8228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:ecommercetest.TC_008AddItemByDept@6f01b95f]" started-at="2024-08-18T13:44:26 GST" name="endReport" finished-at="2024-08-18T13:44:26 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- ecommercetest.TC_008AddItemByDept -->
     </test> <!-- Test3 -->
   </suite> <!-- Suite3 -->

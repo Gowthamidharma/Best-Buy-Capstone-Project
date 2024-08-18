@@ -9,6 +9,10 @@ import ecommerceprojetbase.PSMethodecommerce;
 public class SelectProductPage extends PSMethodecommerce  {	
 	
 
+		@FindBy(css = "img[alt='Zojirushi - Micom 3L Water Boiler & Warmer - Silver Dark Brown']")
+		WebElement altKettleSearch;
+	
+	
 		@FindBy(xpath="//span[contains(text(),'Zojirushi - Micom 3L Water Boiler & Warmer - Silver Dark Brown')]")
 		WebElement KettleSearch;
 		
@@ -43,18 +47,18 @@ public class SelectProductPage extends PSMethodecommerce  {
 		WebElement AirfryerCartButton;
 		
 		@FindBy(xpath="(//span[text()='$1,599.00'])[3]")
-		WebElement alternativeforThreadmillSearch;
+		WebElement alternativeforTreadmillSearch;
 		
 		
-		@FindBy(xpath="//img[@alt='NordicTrack T Series 8.5 S Treadmill - Black - Front_Zoom']")
-		WebElement alternativeforThreadmillSearch1;	
+		@FindBy(css ="img[alt='NordicTrack T Series 8.5 S Treadmill - Black - Front_Zoom']")
+		WebElement alternativeforTreadmillSearch1;	
 
 	
 		 @FindBy(xpath="//a[contains(text(),'NordicTrack T Series 8.5 S Treadmill - Black')]")
-		 WebElement ThreadmillSearch;
+		 WebElement TreadmillSearch;
 		 
 		 @FindBy(xpath="//h1[text()='NordicTrack T Series 8.5 S Treadmill - Black']")	 
-		 WebElement ThreadmillProductPageText; 
+		 WebElement TreadmillProductPageText; 
 		 
 		 @FindBy(xpath="//span[text()='See all pickup locations']")
 		 WebElement alternativeforcartelement0;
@@ -63,22 +67,22 @@ public class SelectProductPage extends PSMethodecommerce  {
 		 WebElement alternativeforcartelement1;	 
 	 
 		 @FindBy(xpath="//button[contains(@class,'c-button c-button-primary c-button-lg c-button')]")	 
-		 WebElement addtoCartThreadMill;
+		 WebElement addtoCartTreadMill;
 	 
 	 	@FindBy(xpath="//a[text()='ProForm - Carbon TL - Black']")
-	 	WebElement ThreadmillSearch2;
+	 	WebElement TreadmillSearch2;
 
 		@FindBy(css="img[alt='ProForm - Carbon TL - Black - Front_Zoom']")
-		WebElement alternativeforThreadmillSearch2;
+		WebElement alternativeforTreadmillSearch2;
 		
 		@FindBy(xpath="//img[@alt='ProForm - Carbon TL - Black - Front_Zoom']")
-		WebElement alternativeforThreadMillSearch3;	 	
+		WebElement alternativeforTreadMillSearch3;	 	
 	 
 	 	@FindBy(xpath="//h1[text()='ProForm - Carbon TL - Black']")	 
-	 	WebElement ThreadmillProductPageText2;
+	 	WebElement TreadmillProductPageText2;
 	
 	 	@FindBy(xpath="//span[text()='Save']")	 
-	 	WebElement altforThreadmilladdtocart2;	 	
+	 	WebElement altforTreadmilladdtocart2;	 	
 	
 		@FindBy(xpath = "//a[text()='Dell gaming laptops']")
 		WebElement DellGamingLink;
@@ -128,8 +132,8 @@ public class SelectProductPage extends PSMethodecommerce  {
 	
 	//method to search the product via search box
 	public String addKettleInProdPage() throws Exception {
-		
-		clickOn(KettleSearch);
+		//jsScrollUntillElement(KettleSearch);		
+		clickOn(altKettleSearch);
 		String KettleTitleAtProdPage = extractText(KettleProductPageText);
 		jsScrollUntillElement(alternativeforcartelement0);
 		clickOn(KettleCartButton);
@@ -152,29 +156,29 @@ public class SelectProductPage extends PSMethodecommerce  {
 	
 	
 	// method to search product via dept menu
-	public String addThreadmillInProdPage() {
+	public String addTreadmillInProdPage() {
 		
-		jsScrollUntillElement(alternativeforThreadmillSearch2);
-		clickOn(alternativeforThreadMillSearch3);
-		String ThreadMillTitleAtProdPage= extractText(ThreadmillProductPageText2);
-		jsClickOn(altforThreadmilladdtocart2);
-		clickOn(addtoCartThreadMill);
+		jsScrollUntillElement(alternativeforTreadmillSearch2);
+		clickOn(alternativeforTreadMillSearch3);
+		String TreadMillTitleAtProdPage= extractText(TreadmillProductPageText2);
+		jsClickOn(altforTreadmilladdtocart2);
+		clickOn(addtoCartTreadMill);
 		clickOn(goToCartButton);;
-		return ThreadMillTitleAtProdPage;
+		return TreadMillTitleAtProdPage;
 		
 	}
 	
 		// method to search product which has a offer 
-	public String addThreadmillInProdPageWithOffer() {
+	public String addTreadmillInProdPageWithOffer() {
 		
 		//jsScrollUntillElement(alternativeforThreadmillSearch);
-		jsScrollUntillElement(alternativeforThreadmillSearch1);
-		clickOn(alternativeforThreadmillSearch1);
-		String ThreadMillTitleAtProdPage= extractText(ThreadmillProductPageText);
+		jsScrollUntillElement(alternativeforTreadmillSearch1);
+		clickOn(alternativeforTreadmillSearch1);
+		String TreadMillTitleAtProdPage= extractText(TreadmillProductPageText);
 		jsClickOn(alternativeforcartelement1);
-		clickOn(addtoCartThreadMill);
+		clickOn(addtoCartTreadMill);
 		clickOn(goToCartButton);;
-		return ThreadMillTitleAtProdPage;
+		return TreadMillTitleAtProdPage;
 		
 	}
 		

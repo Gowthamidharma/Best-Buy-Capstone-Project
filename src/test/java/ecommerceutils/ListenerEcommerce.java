@@ -1,5 +1,7 @@
 package ecommerceutils;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -30,7 +32,12 @@ public class ListenerEcommerce extends PSMethodecommerce implements ITestListene
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		test.addScreenCaptureFromPath(filepath,result.getMethod().getMethodName());
+		try {
+			test.addScreenCaptureFromPath(filepath,result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	
@@ -49,7 +56,12 @@ public class ListenerEcommerce extends PSMethodecommerce implements ITestListene
 			e.printStackTrace();
 		} 
 		
-		test.addScreenCaptureFromPath(filepath,result.getMethod().getMethodName());
+		try {
+			test.addScreenCaptureFromPath(filepath,result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}	
 
 	@Override

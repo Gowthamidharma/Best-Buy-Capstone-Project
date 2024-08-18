@@ -32,6 +32,8 @@ public class TC_010CheckoutPage extends PSMethodecommerce {
 		pp.addAirfryerInProdPage();
 		CheckCartPage cp = new CheckCartPage(driver);
 		cp.selectNoOfItemsInAirfryer();
+		waitImplicit();
+		//Thread.sleep(30);
 		cp.goToCheckOutPage();
 		CheckoutPage cop=new CheckoutPage(driver) ;
 		String actMsg =cop.contactInfoAtCheckOut(emailCheckOut, mobileNumAtCheckOut);		

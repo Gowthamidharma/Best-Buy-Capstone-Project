@@ -8,8 +8,8 @@
   <test thread-count="1" name="Test2">
     <classes>
      <class name="ecommercetest.TC_010CheckoutPage"/>
-      <class name="ecommercetest.TC_005ValidateMenu"/>
-      <class name="ecommercetest.TC_007SearchAddItemInCart"/>     
+      <class name="ecommercetest.TC_007SearchAddItemInCart"/> 
+      <class name="ecommercetest.TC_005ValidateMenu"/>         
       <class name="ecommercetest.TC_003SignIn"/>
     </classes>
   </test> <!-- Test2 -->

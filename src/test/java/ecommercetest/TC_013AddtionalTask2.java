@@ -23,7 +23,7 @@ public class TC_013AddtionalTask2 extends PSMethodecommerce {
 	
 	
 	
-	@Test(dataProvider="getdata",priority = 4)
+	@Test(dataProvider="getdata",priority = 6)
 	public void tc_013_A_ForgotpasswordFunctionality(String email,String xpath,String expMsg) throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();
@@ -41,24 +41,24 @@ public class TC_013AddtionalTask2 extends PSMethodecommerce {
 
 	
 	
-	@Test
+	@Test(priority = 5)
 	public void tc_013_B_AddItemByDeptMenuWithOffer() throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);
 		url.deliveryAtUSA();
 		Homepage hp = new Homepage(driver);
 		hp.selectTheardmillbyDeptInHomePage();
 		SelectProductPage pp = new SelectProductPage(driver);
-		String ThreadmillatProdPage = pp.addThreadmillInProdPageWithOffer();
+		String ThreadmillatProdPage = pp.addTreadmillInProdPageWithOffer();
 		hp.goToCartPage();
 		CheckCartPage cp = new CheckCartPage(driver);
-		String ThreadMillatCartPage = cp.validateThreadMillInCartwithOffer();
+		String ThreadMillatCartPage = cp.validateTreadMillInCartwithOffer();
 		softAssert(ThreadMillatCartPage, ThreadmillatProdPage);
 		if (ThreadMillatCartPage.equals(ThreadmillatProdPage)) {
 			screenShot("Validating Product Title - Pass"+ testName);
 		} else {
 			screenShot("Validating Product Title - Fail"+ testName);
 		}
-		String actOfferMsg=cp.validateThreadMillInCartwithOfferMsg();
+		String actOfferMsg=cp.validateTreadMillInCartwithOfferMsg();
 		String expOfferMsg="As a Plus member you’d save $400.00 on this order.";
 		hardAssert(actOfferMsg, expOfferMsg);
 		if(actOfferMsg.equalsIgnoreCase(expOfferMsg)) {

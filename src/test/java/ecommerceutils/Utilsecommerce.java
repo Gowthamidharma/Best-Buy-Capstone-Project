@@ -76,17 +76,17 @@ public class Utilsecommerce {
 		if (browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("disable--notifications");			
+			options.addArguments("--disable-notifications");			
 			driver = new ChromeDriver(options);
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--disable--notifications");			
+			options.addArguments("--disable-notifications");			
 			driver = new FirefoxDriver(options);
 		} else if (browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions options = new EdgeOptions();
-			options.addArguments("disable--notifications");
+			options.addArguments("--disable-notifications");
 			driver= new EdgeDriver(options);
 		} else {
 			System.out.println("Opening Chrome browser as Default browser");
@@ -109,7 +109,7 @@ public class Utilsecommerce {
 	}	
 
 	public static void waitExplicit(WebElement element) {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(35));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	

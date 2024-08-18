@@ -7,17 +7,17 @@
   </listeners>
   <test thread-count="5" name="Test2(failed)">
     <classes>
-      <class name="ecommercetest.TC_005ValidateMenu">
+      <class name="ecommercetest.TC_010CheckoutPage">
         <methods>
           <include name="startReport"/>
           <include name="close"/>
-          <include name="tc_005validateMenu" invocation-numbers="2"/>
           <include name="setup"/>
           <include name="start"/>
           <include name="endReport"/>
+          <include name="tc_010CheckOutPageFilling" invocation-numbers="0"/>
           <include name="testDetails"/>
         </methods>
-      </class> <!-- ecommercetest.TC_005ValidateMenu -->
+      </class> <!-- ecommercetest.TC_010CheckoutPage -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite2] -->

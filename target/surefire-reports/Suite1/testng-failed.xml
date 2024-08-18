@@ -9,11 +9,11 @@
     <classes>
       <class name="ecommercetest.TC_004CreateAccount">
         <methods>
-          <include name="startReport"/>
           <include name="close"/>
-          <include name="start"/>
+          <include name="startReport"/>
+          <include name="tc_004_validateCreatAccount" invocation-numbers="1"/>
           <include name="endReport"/>
-          <include name="tc_004_A_validateCreatAccount" invocation-numbers="6"/>
+          <include name="start"/>
           <include name="setup"/>
           <include name="testDetails"/>
         </methods>

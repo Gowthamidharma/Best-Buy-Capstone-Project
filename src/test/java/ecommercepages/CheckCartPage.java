@@ -19,30 +19,34 @@ public class CheckCartPage extends PSMethodecommerce {
 	@FindBy(xpath="//a[contains(text(),'Bella Pro Series - 4.2-qt. Digital Air Fryer - Black')]")
 	WebElement AirfryerTitleCartPageText;
 	
-	@FindBy(xpath="//select[@class='tb-select']")
+	@FindBy(xpath ="//select[@class='tb-select']")
 	WebElement selectNumberinAirfryer;
 	
 	@FindBy(xpath="//a[text()='ProForm - Carbon TL - Black']")
-	WebElement ThreadMillTitleCartPageText2;	
+	WebElement TreadMillTitleCartPageText2;	
 	
 	@FindBy(xpath="//a[contains(text(),'NordicTrack T Series 8.5 S Treadmill - Black'])")
-	WebElement ThreadMillTitleCartPageText;	
+	WebElement TreadMillTitleCartPageText;	
 	
 	
 	@FindBy(xpath="//img[@alt='NordicTrack T Series 8.5 S Treadmill - Black']")
-	WebElement altThreadMillTitleCartPageText;	
+	WebElement altTreadMillTitleCartPageText;	
 	
-	@FindBy(xpath="//h2[@class='my-bby-banner__title']")
+	@FindBy(css = ".my-bby-banner__title")
 	WebElement actOfferMsg;	
 	
 	@FindBy(xpath="//button[@class='c-close-icon c-modal-close-icon']")
-	WebElement ThreadMillcloseofferPopup;
+	WebElement TreadMillcloseofferPopup;
 	
-	@FindBy(xpath="//a[contains(text(),'Sony - 75\" Class BRAVIA XR X90K 4K HDR Full Array LED Google TV')]")
-	WebElement sony75InchTvAddedInCart;
-	
+		
 	@FindBy(xpath="//a[contains(text(),'Dell - S3222DGM 32\" LED Curved QHD FreeSync Gaming')]")
 	WebElement DellGamingAddedInCart;
+	
+	@FindBy(xpath="//span[text()='Total']")
+	WebElement altcheckOutInCart2;
+	
+	@FindBy(xpath="//h2[text()='Order Summary']")
+	WebElement altcheckOutInCart1;	
 	
 	@FindBy(xpath="//button[text()='Checkout']")
 	WebElement checkOutInCart;
@@ -66,19 +70,18 @@ public class CheckCartPage extends PSMethodecommerce {
 	
 	
 	// method to get the product text from the product page for validating in cart page
-	public String validateThreadMillInCart() {	
-		
-		return extractText(ThreadMillTitleCartPageText2);
+	public String validateTreadMillInCart() {		
+		return extractText(TreadMillTitleCartPageText2);
 	}
 	
 	// method to get the product text from the product page	for validating in cart page
-	public String validateThreadMillInCartwithOffer() {	
+	public String validateTreadMillInCartwithOffer() {	
 		PopUpwaitFluent();
-		return extractText(altThreadMillTitleCartPageText);
+		return extractText(altTreadMillTitleCartPageText);
 	}
 	
 	// method to get the product text from the product page for validating in cart page
-	public String validateThreadMillInCartwithOfferMsg() {
+	public String validateTreadMillInCartwithOfferMsg() {
 		PopUpwaitFluent();
 		return extractText(actOfferMsg);
 	}	
@@ -96,10 +99,12 @@ public class CheckCartPage extends PSMethodecommerce {
 	//method to increase the select item number in cart page
 	public void selectNoOfItemsInAirfryer() {
 		selectFromDropDown(selectNumberinAirfryer, "2");
+		waitExplicit(checkOutInCart);
 	}
 	
 	//method for checkout
-	public void goToCheckOutPage() {
+	public void goToCheckOutPage() {		
+		//jsScrollUntillElement(altcheckOutInCart1);
 		waitExplicit(checkOutInCart);
 		clickOn(checkOutInCart);
 	}

@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecommercetest.TC_008AddItemByDept">
+      <class name="ecommercetest.TC_013AddtionalTask2">
         <methods>
           <include name="startReport"/>
           <include name="close"/>
+          <include name="tc_013_B_AddItemByDeptMenuWithOffer"/>
           <include name="start"/>
-          <include name="setup"/>
           <include name="endReport"/>
-          <include name="tc_008AddItemByDeptMenu"/>
+          <include name="setup"/>
           <include name="testDetails"/>
         </methods>
-      </class> <!-- ecommercetest.TC_008AddItemByDept -->
+      </class> <!-- ecommercetest.TC_013AddtionalTask2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

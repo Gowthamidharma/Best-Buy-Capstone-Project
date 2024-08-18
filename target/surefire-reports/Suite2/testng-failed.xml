@@ -7,13 +7,24 @@
   </listeners>
   <test thread-count="5" name="Test2(failed)" verbose="0">
     <classes>
+      <class name="ecommercetest.TC_007SearchAddItemInCart">
+        <methods>
+          <include name="startReport"/>
+          <include name="close"/>
+          <include name="tc_007SearchAddItemInCart"/>
+          <include name="start"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- ecommercetest.TC_007SearchAddItemInCart -->
       <class name="ecommercetest.TC_010CheckoutPage">
         <methods>
-          <include name="close"/>
           <include name="startReport"/>
+          <include name="close"/>
           <include name="setup"/>
-          <include name="endReport"/>
           <include name="start"/>
+          <include name="endReport"/>
           <include name="tc_010CheckOutPageFilling" invocation-numbers="0"/>
           <include name="testDetails"/>
         </methods>

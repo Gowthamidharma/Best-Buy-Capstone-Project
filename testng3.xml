@@ -7,10 +7,10 @@
 	</listeners>
   <test thread-count="1" name="Test3">
     <classes>
+      <class name="ecommercetest.TC_013AddtionalTask2"/>
       <class name="ecommercetest.TC_008AddItemByDept"/>
       <class name="ecommercetest.TC_009AddItemByBrand"/>
-      <class name="ecommercetest.TC_011CheckOutCardDetails"/>
-      <class name="ecommercetest.TC_013AddtionalTask2"/>
+      <class name="ecommercetest.TC_011CheckOutCardDetails"/>    
       <class name="ecommercetest.TC_012AdditionalTask1"/>
     </classes>
   </test> <!-- Test -->

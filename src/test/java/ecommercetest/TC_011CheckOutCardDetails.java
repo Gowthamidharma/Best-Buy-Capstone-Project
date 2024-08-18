@@ -24,7 +24,7 @@ public class TC_011CheckOutCardDetails extends PSMethodecommerce {
 	
 	//tried to validate the CheckoutPage by passing the url but still display connection error message
 	// used enable attribute to false, as this method is not proceeding because of connection error
-	@Test(enabled = false, dataProvider = "getdata",priority=5)
+	@Test(enabled = false, dataProvider = "getdata",priority=7)
 	public void tc_010CheckOutPageFilling(String debitCardNumber,String firstName,String lastName, 
 			String address, String city, String stateVisibleText,String postalCode,String expText) throws Exception {
 		FirstSelectcountry url=new FirstSelectcountry(driver);

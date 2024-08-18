@@ -26,10 +26,10 @@ public class TC_008AddItemByDept extends PSMethodecommerce {
 		Homepage hp = new Homepage(driver);
 		hp.selectTheardmillbyDeptInHomePage();
 		SelectProductPage pp = new SelectProductPage(driver);
-		String ThreadmillatProdPage = pp.addThreadmillInProdPage();
+		String ThreadmillatProdPage = pp.addTreadmillInProdPage();
 		hp.goToCartPage();
 		CheckCartPage cp = new CheckCartPage(driver);
-		String ThreadMillatCartPage = cp.validateThreadMillInCart();
+		String ThreadMillatCartPage = cp.validateTreadMillInCart();
 		softAssert(ThreadMillatCartPage, ThreadmillatProdPage);
 		if (ThreadMillatCartPage.equals(ThreadmillatProdPage)) {
 			screenShot("Validating Product Title - Pass"+ testName);

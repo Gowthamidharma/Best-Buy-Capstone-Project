@@ -2,6 +2,7 @@
 package ecommerceprojetbase;
 
 import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -10,25 +11,25 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import ecommerceutils.Utilsecommerce;
 
 
 
 public class PSMethodecommerce extends Utilsecommerce  {
 	
-	  public static ExtentSparkReporter reporter; 
-	  public static ExtentReports  extent;
-	  public static ExtentTest test;
+	  public static ExtentHtmlReporter reporter; 
+	  //public static ExtentReports  extent;
+	  //public static ExtentTest test;
 	
 	  
 	  // extent report in before suite
 	@BeforeSuite
 	public void startReport() {
 		System.out.println("BestBuy Automation has started Successfully");
-		String extentreport= "C:\\Users\\Lishanth\\eclipse-workspace\\ecommerceprojet\\ExtentReportEcommerce1.html";
-		reporter = new ExtentSparkReporter(extentreport);		
-		reporter.config().setReportName("Ecommerce Extent Report");
+		String extentreport= "C:\\Users\\Lishanth\\eclipse-workspace\\ecommerceprojet\\ExtentReportBestBuy.html";
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter(extentreport);		
+		reporter.setAppendExisting(true);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 	}
